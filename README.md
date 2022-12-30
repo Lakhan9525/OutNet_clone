@@ -1,7 +1,7 @@
 
 <h1 align="center">The OutNet.com </h1>
 <img src="https://miro.medium.com/max/1400/1*TAZUupFlp6HTOlneDDwwHQ.png"></img>
- <p><h3>Live Link - </h3>(https://gorgeous-sopapillas-340399.netlify.app/womens.html)</p>
+ 
  
 Hello everyone hope you are doing well, Today i will write about our construct week project. In our costruct week we are clone the website of The OUTNET.com for clonig out net we had use Html to make structure of our project CSS for styling and JavaScript for function like get data from database, serach function, sorting, filtter and many more function we have use
 
