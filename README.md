@@ -11,9 +11,9 @@ For making this project we have alloted a group by
 
 Masai School
 
- Medieum Link:-<a href="https://medium.com/@faisal.z.khan5538/unit-3-project-753779b1b51f">https://medium.com/@faisal.z.khan5538/unit-3-project-753779b1b51f</a>
+ Medieum Link:-<a href="https://medium.com/@lakhanraj987/unit-3-project-4c0948100660"</a>
 
-in our group we are five members Satyam Kumar Jha, Faisal Khan, Mahesh Raut, Sanjay Kushwaha and Lakhan Yadav. My team members are very supportive. If anyone face any problem durring making the project they call anyone to ask help and they are always stand to help and support each other If they are not in my group i think it difficult to complete our work in given time span.
+
 
 For Making this project whatever technology we used all of those teach by our teacher and mentor of
 
@@ -38,8 +38,7 @@ This is Landing page of our project
 
 Here you find two sectio Male and Female after clicking on any section we will go to there respective page lets take example if i click on Men. You will go to Men page
 
-Men Page desgin and functionlity done by Faisal Khan, and Faisal also make footer for all wepage.
-<img src="https://miro.medium.com/max/1400/1*rhPAAVQFCyM0yd5EdnUGaw.png"></img>
+
 In Men page we see Products Related to Men Here you will find a image slider in image slider we have use some trending products image
 
 
