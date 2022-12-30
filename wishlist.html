@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyKpjCSeyFZ3Mo1aie-BnVIm9mUp55qndCA&usqp=CAU"
+        type="image/x-icon" type="image/x-icon">
+    <title>Men's</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="responsive/navbar.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/wishlist.css">
+    <script src="script/navbar.js" type="module"></script>
+    <link rel="stylesheet" href="./responsive/wishlist.css">
+</head>
+
+<body>
+    <div id="navbar-start"></div>
+
+
+    <div id="name">
+        <p>Wish List</p>
+        <p>Keep track of all your favorite items here and add them to your Shopping Bag to purchase later</p>
+    </div>
+    <div id="wishnavbar">
+        <div id="tags">
+            <a href="">In stock</a>
+            <a href="">Sold Out</a>
+            <a href="">Unavailable in location</a>
+        </div>
+        <div id="icon">
+            <p><i class="fa-solid fa-pen"></i></p>
+            <p><i class="fa-solid fa-arrow-up-from-bracket"></i></p>
+        </div>
+    </div>
+
+    <div id="item">
+        <div id="check">
+            <input type="checkbox" name="" id="women">
+            <label for="men">Women</label>
+            <input type="checkbox" name="" id="men">
+            <label for="women">men</label>
+        </div>
+        <div id="noitem">0 item</div>
+        <div id="sorting">
+            <select name="sort" id="sort">
+                <option value="recent added">Recent Added</option>
+                <option value="availability">Availability</option>
+                <option value="htl">Price high to low</option>
+                <option value="lth">Price low to high</option>
+            </select>
+        </div>
+    </div>
+    <div id="container">
+        <!-- append data here -->
+    </div>
+
+<div id="page">
+    <div class="d1"><i class="fa-solid fa-chevron-left"></i> <span>Previous</span></div>
+    <div id="d2">page 1 of 1</div>
+    <div class="d1"><span>Next</span> <i class="fa-solid fa-angle-right"></i></div>
+</div>
+
+
+
+
+    <!-- footer and lower both the part of footer -->
+    <!-- footer start -->
+    <div id="footer"></div>
+    <!-- footer end -->
+    <!-- wishlist items -->
+
+    <!-- lower start -->
+    <hr>
+    <div id="lower"></div>
+    <!-- lower end -->
+</body>
+
+</html>
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script src="/script/wishlist.js" type="module"></script>

@@ -1,0 +1,230 @@
+#footer
+{
+    width: 95%;
+    margin: auto;
+    padding: 50px;
+    font-family:  Arial;
+}
+#payment{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-family:  Arial;
+}
+
+
+#payment img{
+    width: 50px;
+    padding: 5px;
+    border: 1px solid rgb(206, 200, 200);
+}
+
+#box1{
+    width: 40%;
+    /* margin: auto; */
+    font-family:  Arial;
+    margin-top: 13%;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+#list{
+    display: flex;
+    line-height: 25px;
+    /* font-size: 18px; */
+    justify-content: space-between;
+    margin-top: -150px;
+    font-family:  Arial;
+}
+
+#list>div{
+    line-height: 50px;
+    font-family:  Arial;
+}
+#footer
+{
+    display: flex;
+    font-family:  Arial;
+}
+#footer>#box2{
+width: 55%;
+padding: 15px 15px 15px 20%;
+line-height: 50px;
+margin-bottom: 150px;
+font-family:  Arial;
+}
+
+#box2 #email{
+    padding: 20px 30% 20px 2%;
+    font-size: 18px;
+    border: 0.7px solid #d3d3d3;
+    font-family:  Arial;
+}
+#box2 #email:hover
+{
+    border: 1px solid #b3afaf;
+}
+#box2 #submit{
+    padding: 2.69%;
+    font-size: 18px;
+    border: 0.7px solid #d3d3d3;
+    background-color: white;
+    cursor: pointer;
+    font-family:  Arial;
+}
+
+#box2 #submit:hover{
+   border: 1px solid black;
+}
+
+#box2 span{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family:  Arial;
+}
+
+#box2 span:hover{
+    text-decoration: underline;
+}
+
+#input{
+    line-height: 35px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family:  Arial;
+}
+
+#input>h2,p{
+    margin-bottom: 10px;
+    font-family:  Arial;
+}
+
+#box2 h4{
+    font-size: 22px;
+    margin-top: 25px;
+    font-family:  Arial;
+}
+
+#icon{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family:  Arial;
+}
+.symbol:hover{
+    filter: blur(1px);
+    font-size: 30px;
+}
+#box2>.socialapp{
+    margin-top: 60px;
+    /* font-size: 200px; */
+    font-family:  Arial;
+}
+
+#lower{
+    display: flex;
+    justify-content: space-between;
+    font-family:  Arial;
+}
+#hello{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ #hello1 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 70px 0px 70px 0px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family:  Arial;
+   /* margin-top: -50px; */
+}
+
+#hello2{
+    text-align: left;
+    padding: 70px 0px 70px 0px;
+    margin-right: 50px;
+    font-family:  Arial;
+}
+ #nano{
+     display: block;
+    /* justify-content: left; */
+    text-align: right;
+    font-family:  Arial;
+}
+
+/* footer css ends here */
+
+/* responsive*/
+@media all and (max-width: 840px){
+    #box1{
+        width: 100%;
+    }
+    #footer{
+        display: block;
+        padding: 10px;
+    }
+    #list{
+        display: none;
+    }
+    #input{
+        display: none;
+    }
+    .socialapp{
+        display: block;
+        width: 100%;
+       
+    }
+    #icon{
+        width: 60%;
+    }
+    #footer>#box2{
+        margin-top: 10px;
+        width: 100%;
+    }
+    #payment{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #support{
+       display: none;
+    }
+    #box2>.socialapp{
+        margin-top: 5px;
+    }
+    #hello{
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #hello1{
+        display: block;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    #hello2{
+        display: block;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        font-size: 12px;
+        margin-top: -100px;
+
+    }
+    #hello2>#nano{
+        text-align: center;
+    }
+    #hello1>h4{
+        margin-bottom: 30px;
+    }
+ }

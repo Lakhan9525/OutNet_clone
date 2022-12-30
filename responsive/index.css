@@ -1,0 +1,23 @@
+@media all and (max-width: 460px) {
+    #s-navbar{
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    #s-navbar>h1{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+    .link{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .link>a{
+        font-size: 13px;
+    }
+    .link>p{
+        padding: 10px;
+        font-size: 15px;
+    }
+  }

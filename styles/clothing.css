@@ -1,0 +1,257 @@
+#z-top-c{
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+    margin-top:25px;
+
+}
+#z-top-in1{
+    height:256px;
+    width:256px;
+    
+    
+}
+#z-top-in1 h2{
+    margin:16px;
+    margin-top:35px;
+    color:rgb(54, 51, 51);
+    font-weight: 500;
+ 
+}
+#z-top-in1 h6{
+   margin:16px;
+    height:150px;
+    width:435px;
+    font:14px/1.375 ,Arial;
+    line-height: 20px;
+    font-weight: 500;
+    color:rgb(54, 51, 51);
+   
+   
+
+}
+#z-top-in2{
+    width:256px
+}
+#z-top-in2 img{
+    height:100%;
+    width:100%;
+}
+#z-top-in2::after{
+    
+    margin: 0 0 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid grey;
+    height: auto;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+#z-main-top span{
+ font-size: 14px;
+
+}
+#z-main-top{
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    border-top:1px solid grey;
+    padding-bottom: 16px;
+   
+    margin-top: 25px;
+    padding-top: 16px;
+}
+#z-orderby select{
+    border: 1px solid grey; 
+    padding:15px
+}
+#z-sort-items{
+    /* margin:25px; */
+    width:300px;
+    
+}
+#z-sort-items span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+#z-cat,#z-size{
+
+
+margin-top: 15px;
+margin-bottom:15px
+}
+#z-cat ul{
+    list-style-type: none;
+  line-height: 30px;
+  display:none;
+}
+#z-size ul{
+    list-style-type: none;
+    line-height: 30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    display:none
+}
+#z-size-shirt ul{
+    list-style-type: none;
+    line-height: 30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    display:none
+}
+#z-size-shirt{
+    margin-top: 15px;
+    margin-bottom:15px
+}
+#z-size-shoe ul{
+    list-style-type: none;
+    line-height: 30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    display:None;
+}
+#z-size-shoe{
+    margin-top: 15px;
+    margin-bottom:15px
+}
+#z-size-color img{
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+#z-size-color{
+    margin-top: 15px;
+    margin-bottom:15px
+}
+#z-size-color ul{
+    display:none;
+}
+#z-size-color li{
+    list-style-type: none;
+    line-height: 30px;
+    display:flex;
+    margin:20px;
+    
+}
+.slider{
+    margin-top: 25px;
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+    
+  }
+  #z-price{
+    margin-top: 15px;
+    margin-bottom:15px
+  }
+  #z-price ul{
+      display:none
+  }
+  .slider .progress{
+    height: 100%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background: black;
+  }
+  .range-input{
+    position: relative;
+  }
+  .range-input input{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: black;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+  input[type="range"]::-moz-range-thumb{
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background: black;
+    pointer-events: auto;
+    -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+#z-showrange{
+ 
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+#z-fabric ul{
+    list-style-type: none;
+    line-height: 30px;
+    display:none;
+}
+#z-fabric{
+    margin-top: 15px;
+    margin-bottom:15px
+}
+#z-designer ul{
+    list-style-type: none;
+    line-height: 30px;
+    display:none;
+    overflow:scroll;
+    height:220px
+}
+#z-designer{
+    margin-top: 25px;
+    
+}
+#z-bind-both{
+    
+    display:flex;
+    justify-content: space-around;
+}
+#z-showdata{
+   
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:100px;
+    align-content: space-around;
+
+}
+#z-showdata>div{
+    height:400px;
+    width:200px;
+    text-align: center;
+    
+}
+#z-showdata span{
+    font-size: 14px;
+   margin:5px
+}
+.z-flex{
+    display:flex;
+  justify-content: center;
+}
+#z-showdata h4{
+    margin:5px
+}

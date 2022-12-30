@@ -1,0 +1,9 @@
+@media all and (max-width: 800px){
+    #z-product-bind{
+        display: block;
+    }
+    #z-delivery-option{
+        width: 100%;
+        border: 1px solid red;
+    }
+}

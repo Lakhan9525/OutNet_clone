@@ -1,0 +1,5 @@
+@media all and (max-width: 840px){
+   #container{
+       display: none;
+   }
+}

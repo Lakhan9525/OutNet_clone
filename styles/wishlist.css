@@ -1,0 +1,123 @@
+#name{
+    width: 95%;
+    margin: auto;
+    padding: 50px 0px 30px 0px;
+}
+#name>p:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: TheOutnetWebXL, Arial;
+}
+
+#wishnavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+   border-bottom: 1px solid #e6e6e6;
+   padding: 20px 0px;
+   margin: auto;
+}
+
+#tags{
+    display: flex;
+ justify-content: space-between;
+ width: 20%;
+ align-items: center;
+ font-size: 18px;
+ cursor: pointer;
+}
+
+#icon{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    align-items: center;
+}
+
+#item{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#check>#women,#men
+ {
+    height: 30px;
+    width: 30px;
+    
+}
+
+#check{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    cursor: pointer;
+}
+#sort{
+    font-size: 18px;
+    padding: 20px 40px 20px 20px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#sort>option{
+    line-height: 100px;
+}
+
+#page{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    padding: 20px;
+}
+
+#page>.d1>Span{
+font-size: 18px;
+}
+
+
+/* css for append data */
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+}
+
+#container>#box>img{
+    width: 100%;
+    height: 300px;
+}
+
+.strPrice{
+    text-decoration: line-through;
+    /* display: flex; */
+}
+
+#remove{
+    position: relative;
+    left: 45%;
+    top: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#toBag{
+    padding: 20px 30%;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid rgb(196, 191, 191);
+}

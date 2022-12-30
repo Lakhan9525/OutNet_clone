@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+i {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    font-size: 100px;
+}
+
+#navbar-start {
+    width: 100%;
+}
+
+#navbar {
+    width: 95%;
+    margin: auto;
+}
+
+#s-signup-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#s-buttons>a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-right: 1px solid gray;
+}
+
+#s-country>img {
+    width: 30px;
+}
+
+#s-country>a {
+    padding: 5px;
+    margin-right: 10px;
+    border-right: 1px solid gray;
+}
+
+#s-country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s-middle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s-men-women {
+    display: flex;
+}
+
+#serach-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#serach-cart>a {
+    margin-right: 20px;
+}
+
+#serach-cart>p {
+    margin-right: 10px;
+    border-right: 1px solid gray;
+    padding: 5px;
+}
+
+#s-logo {
+    letter-spacing: 20px;
+    font-size: 20px;
+}
+
+#s-men-women>a {
+    border-right: 1px solid gray;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#s-nav_btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+#s-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #F2F2F2;
+    margin-top: 10px;
+}
+
+.s-just-in {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-best-sellers {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-desginer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-clothing {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-shoes {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-access {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-sport {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-warddrop {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-off {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-editorial {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: none;
+}
+.s-fst {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.s-sec {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s-third {
+    width: 25%;
+    text-align: center;
+}
+
+.s-four>p,
+.s-third>p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.s-four {
+    text-align: center;
+    width: 25%;
+}
+
+div>img {
+    width: 100%;
+}
+#s_search:hover{
+cursor: pointer;
+}
+#s-search-box{
+   width: 70%;
+   margin: auto;
+   height:600px;
+   padding: 20px;
+   border-radius: 30px;
+   /* display: flex; */
+   display:none;
+   background-color: rgba(0, 0, 0, 0.144);
+}
+#s-input-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#s-input-box>input{
+    border-radius: 30px;
+    width: 50%;
+    height:40px;
+    border: 1px solid teal;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#s-cut:hover{
+    cursor: pointer;
+}
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #ff0000;
+      color: #fff;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }

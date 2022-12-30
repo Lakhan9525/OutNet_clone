@@ -1,0 +1,203 @@
+
+/* 1st div css */  /* 1st div css */  /* 1st div css */  /* 1st div css */  /* 1st div css */
+/* *{
+    overflow-x: hidden;
+} */
+
+#mrcontainer
+{
+    width: 95%;
+    margin: auto;
+}
+img:hover{
+    cursor: pointer;
+}
+#womencont {
+    width: 100%;
+    height: 630px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: -5px;
+    margin-top: 20px;
+    /* margin: auto; */
+}
+
+#womencont>div {
+    width: 650px;
+    height: 630px;
+    /* border: 1px solid teal; */
+    margin: auto;
+}
+
+.wo {
+    width: 630px;
+    height: 630px;
+    cursor: pointer;
+}
+
+#firstbtn {
+    padding: 12px;
+    margin-left: 240px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+#firstbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* 3rd div start */  /* 3rd div start */  /* 3rd div start */  /* 3rd div start */  /* 3rd div start */  /* 3rd div start */
+#lady3 {
+    width: 100%;
+    height: 430px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 40px;
+    /* margin: auto; */
+}
+
+
+#lady3>div {
+    width: 415px;
+    height: 430px;
+    /* border: 1px solid teal; */
+    margin: auto;
+    gap: 10px;
+}
+
+#mr {
+    width: 415px;
+    height: 430px;
+    cursor: pointer;
+}
+
+#mrbtn {
+    padding: 12px;
+    margin-left: 120px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#mrbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#mrbtnlast {
+    padding: 12px;
+    margin-left: 120px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#mrbtnlast:hover {
+    background-color: black;
+    color: white;
+}
+/* 4th div */    /* 4th div */    /* 4th div */    /* 4th div */    /* 4th div */    /* 4th div */    /* 4th div */
+#womencont3 {
+    width: 100%;
+    height: 630px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: -5px;
+    /* margin: auto; */
+    margin-top: 210px;
+}
+
+#womencont3>div {
+    width: 650px;
+    height: 630px;
+    /* border: 1px solid teal; */
+    margin: auto;
+}
+
+/* lastdiv *//* lastdiv *//* lastdiv *//* lastdiv *//* lastdiv *//* lastdiv *//* lastdiv */
+#lastdiv4
+{
+    width: 90%;
+    height:380px ;
+    /* border: 1px solid red; */
+    margin-top: 210px;
+    display: flex;
+    gap: 14px;
+}
+#lastdiv4>div{
+    width: 379px;
+    height: 349px;
+    /* border: 1px solid black; */
+}
+#lady4
+{
+    width: 319px;
+    height: 380px;
+    cursor: pointer;
+
+}
+/* 2nd div */ /* 2nd div */ /* 2nd div */ /* 2nd div */ /* 2nd div */
+#sliderwindow
+{
+    width: 100%;
+    height: 385px;
+    /* border: 1px solid black; */
+    margin-top: 160px;
+    /* display: block; */
+    display: flex;
+    overflow-x: scroll;
+}
+
+.arro
+{
+    padding: 20px;
+    cursor: pointer;
+}
+#sliderwindow::-webkit-scrollbar {
+    display: none;
+  }
+
+  #slidingarrow
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      /* cursor: pointer; */
+      /* padding-left: 15px;
+      padding-right: 15px; */
+  }
+#sliderwindow>div{
+    width: 270px;
+    height: 350px;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    gap: 10px;
+    cursor: pointer;
+  
+}
+#slideimg
+{   width: 200px;
+    height: 250px;
+    margin: 20px 40px 10px 40px;
+    cursor: pointer;
+}
+/* #arrow
+{
+    margin: bottom -150px;
+    margin-left: 250px;
+    
+    font-size: 50px;
+    color: black;
+    overflow: hidden;
+    
+}
+*/
+

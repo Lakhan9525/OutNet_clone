@@ -1,0 +1,57 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background:  #f2f2f2;
+  margin-top: 80px;
+  padding: 2%;
+}
+
+.carousel-cell {
+  width: 15%;
+  height: 100%;
+  margin-right: 10px;
+  /* background: #333; */
+  background-color: white;
+  text-align: center;
+  
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 80%;
+  margin: 0 auto;
+  max-width: 95%;
+  opacity: 0;
+ margin-bottom: 20px;
+ padding: 20px;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+#f-justin{
+    /* text-align: center; */
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -30px;
+  /* padding: 50px; */
+    /* line-height: 50px; */
+    /* border: 1px solid red; */
+    width: 15%;
+}
+
+#justin>h1,p{
+    margin-bottom: 50px;
+}
+#justin>a{
+    text-decoration: underline;
+}

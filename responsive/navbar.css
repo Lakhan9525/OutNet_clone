@@ -1,0 +1,34 @@
+@media all and (max-width:1050px){
+    #s-details{
+        display: none;
+    }
+    #s-signup-login{
+        display: none;
+    }
+    #s-bnt{
+        display: none;
+    }
+    #s-nav_btn{
+        display: none;
+    }
+    #serach-cart>p,#heart{
+        display: none;
+    }
+    #serach-cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #serach-cart>i{
+        margin-right: 15px;
+    }
+}
+@media all and (max-width:800px){
+    #s-logo{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    #serach-cart{
+        display: none;
+    }
+}
